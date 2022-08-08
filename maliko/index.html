@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/icons/person.png">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>maliko.  Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar animate__animated animate__fadeInDown">
+            <a href="index.html" class="navbar__brand"><img src="./icons/Logo.png" alt="maliko logo"></a>
+            <ul class="navbar__links navbar__center desktop">
+                <li class="navbar__links-link active">portfolio</li>
+                <li class="navbar__links-link">about me</li>
+                <li class="navbar__links-link">my blog</li>
+                <li class="navbar__links-link">reviews</li>
+                <li class="navbar__links-link">contact me</li>
+            </ul>
+            <ul class="navbar__links navbar__right">
+                <li class="navbar__links-link" onclick="handleClick('search')"><img src="./icons/search.png" alt="icon"></li>
+                <li class="navbar__links-link" onclick="handleClick('cart')"><img src="./icons/basket.png" alt="icon"></li>
+                <li class="navbar__links-link" onclick="handleClick('auth')"><img src="./icons/person.png" alt="icon"></li>
+            </ul>
+        </nav>
+        <ul class="side__top animate__animated animate__fadeInUp">
+            <li class="pointer">material</li>
+            <li class="pointer">designers</li>
+            <li class="pointer">process</li>
+        </ul>
+        <ul class="side__bottom animate__animated animate__fadeInUp">
+            <li class="pointer">fb</li>
+            <li class="pointer">pi</li>
+            <li class="pointer">in</li>
+        </ul>
+
+        <div class="main container">
+            <div class="block1 animate__animated animate__fadeInLeft">
+                <div class="block1__header">
+                    <span class="block1__header-subtitle">Hello World, I am</span>
+                    <h1 class="block1__header-title">maliko</h1>
+                </div>
+                <p class="block1__description">
+                    From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded incommode.
+                </p>
+                <button class="block1__button">schedule free consultation</button>
+            </div>
+            <div class="block2 animate__animated animate__fadeInRight">
+                <div class="block2__image">
+                    <span class="floter" style="top: 20px; left: 0">Ui Designe</span>
+                    <span class="floter" style="top: 70px; right: -18px">Mobile Apps</span>
+                    <span class="floter" style="bottom: 184px; left: 0">Brading</span>
+                    <span class="floter" style="bottom: 262px; right: -8px">Graphics</span>
+                    <img src="./dog.png" alt="dog">
+                </div>
+            </div>
+        </div>
+        <footer class="footer animate__animated animate__fadeInUp">
+            <p>Note, This is my dog, not me</p>
+        </footer>
+    </header>
+    
+</body>
+</html>
